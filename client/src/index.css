@@ -1,0 +1,178 @@
+body{
+
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.App {
+  background-image: url("https://www.global-business-school.org/sites/default/files/gbsb-global-online-education-blog.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+
+.nav {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8vh;
+  background: rgba(255,255,255,0.4);
+   border-bottom: 1px solid rgba(225,225,225,0.5); 
+  z-index: 1000;
+}
+
+.nav1 {
+  display:grid;
+  grid-template-columns: 20% 80%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 8vh;
+  background: rgba(255,255,255,0.4);
+   border-bottom: 1px solid rgba(225,225,225,0.5); 
+  z-index: 1000;
+}
+
+
+
+.loginForm{
+  display: grid !important;
+  grid-template-columns: repeat(3,1fr);
+  width:100%;
+  padding: 1.4rem;
+}
+
+.loginForm button {
+  height: 5vh;
+  width:30%;
+}
+
+.loginForm div{
+  display: flex;
+  gap:1rem;;
+}
+
+.title {
+  text-align: center;
+  padding: 2rem;
+  font-size: 5rem;
+  color: white;
+}
+
+.studentOffers{
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  margin: auto;
+  width:90%;
+  padding-top:4rem;
+  font-size: 1.5rem;;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.img1 {
+  margin-left:8rem;
+  height: 100%;
+  width: 20%;
+}
+
+.img2 {
+  margin-left:8rem;
+  height: 100%;
+  width: 20%;
+}
+
+.img3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 10%;
+}
+
+.img4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  width: 30%;
+}
+
+
+
+.signUpForm{
+  border: 2px solid black;
+border-radius: 30px;
+  padding: 2rem;
+  width: 30%;
+  margin: auto;
+  height: 80vh;
+  background: rgba(255, 255, 255, 0.308);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.308); 
+}
+
+.box {
+	display: flex;
+  border-left: 1px solid black;
+}
+
+.box .inner {
+	width: 100%;
+	font-size: 2em;
+	font-family: sans-serif;
+	font-weight: bold;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.box .inner:first-child {
+
+color: rgba(250, 235, 215, 0.877);
+	transform-origin: right;
+	transform: perspective(100px) rotateY(0deg);
+}
+
+.box .inner:last-child {
+
+color: rgba(250, 235, 215, 0.877);
+	transform-origin: left;
+	transform: perspective(100px) rotateY(0deg);
+}
+
+.box .inner span {
+	position: absolute;
+	animation: marquee 5s linear infinite;
+}
+
+.box .inner:first-child span {
+	animation-delay: 2.5s;
+	left: -100%;
+}
+
+@keyframes marquee {
+	from {
+		left: 100%;
+	}
+
+	to {
+		left: -100%;
+	}
+}
+
+.dashboardForm{
+  padding: 2rem;
+  width: 30%;
+  /* margin: auto; */
+  height: 100%;
+  background: rgba(255, 255, 255, 0.308);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.308); 
+}
+
+.btn-success{
+  height: 40px !important;
+  width: 15% !important;
+  margin-left:1rem !important;
+}
